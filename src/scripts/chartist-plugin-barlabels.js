@@ -12,7 +12,9 @@
             x: 20,
             y: -4
         },
-        barAnchor: 'left'
+        barAnchor: 'left',
+        labelPrefix: '',
+        labelSuffix: ''
     };
 
     Chartist.plugins = Chartist.plugins || {};
@@ -24,14 +26,13 @@
         // bar labels
         if(chart instanceof Chartist.Bar) {
             chart.on('draw', function(data) {
-                var barLabelPrefix = '$ '
                 var centerPos = (data.y1 + data.y2)/2;
                 if(data.type === 'bar') {
                     data.group.elem('text', {
                         x: data.x1 + options.labelOffset.x,
                         y: centerPos - options.labelOffset.y,
                         style: 'text-anchor: ' + options.barAnchor
-                    }, options.labelClass).text(barLabelPrefix + data.value);
+                    }, options.labelClass).text(options.labelPrefix + data.value + options.labelSuffix);
                 }
             });
         }
