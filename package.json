@@ -1,19 +1,21 @@
 {
-  "name": "chartist-plugin-pointlabels",
-  "description": "Point Labels Plugin for Chartist.js",
-  "version": "0.0.2",
-  "author": "Gion Kunz",
-  "homepage": "https://gionkunz.github.io/chartist-plugin-pointlabels",
+  "name": "chartist-plugin-barlabels",
+  "description": "Barchart Labels Plugin for Chartist.js",
+  "version": "0.0.1",
+  "author": "Remco Vlierman",
+  "homepage": "https://github.com/Remco75/chartist-plugin-barlabels",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gionkunz/chartist-plugin-pointlabels.git"
+    "url": "https://github.com/Remco75/chartist-plugin-barlabels.git"
   },
   "bugs": {
-    "url": "https://github.com/gionkunz/chartist-plugin-pointlabels/issues"
+    "url": "https://github.com/Remco75/chartist-plugin-barlabels/issues"
   },
   "keywords": [
     "chartist",
-    "plugin"
+    "plugin",
+    "barchart",
+    "labels"
   ],
   "files": [
     "dist",
@@ -21,12 +23,12 @@
     "package.json",
     "README.md"
   ],
-  "main": "dist/chartist-plugin-pointlabels.js",
-  "browser": "dist/chartist-plugin-pointlabels.js",
+  "main": "dist/chartist-plugin-barlabels.js",
+  "browser": "dist/chartist-plugin-barlabels.js",
   "licenses": [
     {
       "type": "WTFPL",
-      "url": "https://github.com/gionkunz/chartist-plugin-pointlabels/blob/master/LICENSE"
+      "url": "https://github.com/Remco75/chartist-plugin-barlabels/blob/master/LICENSE"
     }
   ],
   "dependencies": {},
@@ -52,7 +54,7 @@
     "test": "grunt test"
   },
   "config": {
-    "banner": "/* chartist-plugin-pointlabels <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+    "banner": "/* chartist-plugin-barlabels <%= pkg.version %>\n * Copyright © <%= year %> Remco Vlierman \n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
     "src": "src",
     "dist": "dist",
     "tmp": ".tmp",
