@@ -9,10 +9,7 @@
   },
   "ignore": [
     ".*",
-    "Gruntfile.js",
-    "package.json",
-    "node_modules",
-    "src",
-    "test"
+    "!dist",
+    "!bower.json"
   ]
 }
