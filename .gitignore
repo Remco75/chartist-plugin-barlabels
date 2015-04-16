@@ -11,3 +11,6 @@ bower_components/
 
 # debug
 npm-debug.log
+
+# intelij
+.idea/*
