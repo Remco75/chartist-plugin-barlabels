@@ -14,3 +14,4 @@ npm-debug.log
 
 # intelij
 .idea/*
+*.iml
