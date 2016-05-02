@@ -13,7 +13,7 @@ var defaultOptions = {
     x: 0,
     y: -10
   },
-  textAnchor: 'middle'
+  barAnchor: 'middle'
 };
 ```
 
@@ -29,7 +29,7 @@ var chart = new Chartist.Bar('.ct-chart', {
 }, {
   plugins: [
     ctBarLabels ({
-      textAnchor: 'middle'
+      barAnchor: 'middle'
     })
   ]
 });
